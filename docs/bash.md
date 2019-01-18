@@ -1,0 +1,3 @@
+# Bash Language Notes
+
+## Commands
