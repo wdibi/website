@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-kW2H6mf/72/MKlmwB//Zcwg0ckiegojPx/fio14/rpoYw2LMhULTn5YhS1QyrQfx" crossorigin="anonymous">
-
+    <link href="style.css" rel="stylesheet">
     <title>Will DiBiagio</title>
 </head>
 
@@ -21,14 +20,14 @@
 
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="academics.html">Academics</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/notes/index.html">Notes</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Notes <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="cv.html">CV</a>
@@ -43,20 +42,39 @@
             </form> -->
         </div>
     </nav>
-    <div class="jumbotron">
-        <h1 class="display-3">Hello, world!</h1>
-        <p class="lead">Welcome to my site which is currently under construction.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
-    </div>
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#">Home</a></li>
         <li class="breadcrumb-item"><a href="#">Library</a></li>
         <li class="breadcrumb-item active">Data</li>
     </ol>
+    <!-- <textarea id="sourceTA" rows="10" cols="82"></textarea>
+    <hr />
+    <button id="runBtn" onClick="run()">Convert</button>
+    <hr />
+    <div id="targetDiv"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.js"></script>
+    <script src="script.js"></script> -->
+    <div id="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+    function getText(){
+    // read text from URL location
+    var request = new XMLHttpRequest();
+    request.open('GET', 'notes/test.md', true);
+    request.send(null);
+    request.onreadystatechange = function () {
+        if (request.readyState === 4 && request.status === 200) {
+            var type = request.getResponseHeader('Content-Type');
+            if (type.indexOf("text") !== 1) {
+                document.getElementById('content').innerHTML =
+                  marked(request.responseText);
+            }
+        }
+    }
+}
+getText()
+
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
