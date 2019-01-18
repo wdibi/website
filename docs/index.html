@@ -20,9 +20,10 @@
             repo: 'https://github.com/wdibi/website/',
             loadSidebar: true,
             subMaxLevel: 3,
-            alias: {
-                '/.*/_sidebar.md': '/_sidebar.md'
-            },
+            loadNavbar: true,
+            // alias: {
+            //     '/.*/_sidebar.md': '/_sidebar.md'
+            // },
             formatUpdated: '{MM}/{DD} {HH}:{mm}',
 
             formatUpdated: function(time) {
@@ -36,6 +37,7 @@
     <!--Plugins-->
     <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
     <script src="//unpkg.com/docsify-copy-code"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </body>
 
 </html>

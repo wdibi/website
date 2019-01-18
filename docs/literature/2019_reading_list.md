@@ -5,6 +5,7 @@
 ![](https://images-na.ssl-images-amazon.com/images/I/41%2BlolL22gL._SX314_BO1,204,203,200_.jpg)
 
 ## Queue
+
 - **Steve Jobs** by Walter Isaacson
 - **Thinking, Fast and Slow** by Daniel Kahneman
 - **The Spider Network: The Wild Story of a Math Genius, a Gang of Backstabbing Bankers, and One of the Greatest Scams in Financial History** by David Enrich

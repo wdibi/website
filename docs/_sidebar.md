@@ -2,21 +2,22 @@
 
 - Languages
 
-     - [Python](python.md)
-     - [Bash](bash.md)
+    - [Python](/languages-python/)
+    - [Bash](/languages-bash/)
 
 - Courses
 
-    - [CMSI-281](cmsi281.md)
+    - [CMSI 281](/courses-cmsi281/)
 
 - Literature
 
-    - [2019 Reading List](2019_reading_list.md)
+    - [2019 Reading List](/literature/2019_reading_list.md)
+    - [Academic Papers](/literature/academic_papers.md)
 
 - Resources
 
-    - [Coding](coding_resources.md)
+    - [Coding](/resources/coding_resources.md)
 
 - Other
 
-    - [Quotes](quotes.md)
+    - [Quotes](/other/quotes.md)

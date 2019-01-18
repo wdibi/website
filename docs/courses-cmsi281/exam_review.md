@@ -1,32 +1,4 @@
 # CMSI-281 Final Exam Study Guide
-## Table of Contents
-[Practice Problems](#practice-problems)
-
-[Notes](#notes)
-- [Binary Search Tree](#notes-binary-search-tree)
-- [Graphs](#notes-graphs)
-- [Hashing](#notes-hashing)
-- [Heaps](#notes-heaps)
-
-[Extra Sample Code](#extra-sample-code)
-- [Depth First Traversal](#extra-sample-code-depth-first-traversal)
-- [Add Node to Heap](#extra-sample-code-add-node-to-heap)
-- [Binary Search Tree](#extra-sample-code-binary-search-tree)
-
-<a name="practice-problems"></a>
-## Practice Problems
-### Practice 1
-```java
-public class ArrayListInt {
-    final int GROWTH_FACTOR = 2 ;
-    int [] arr;
-    int size;
-    public ArrayListInt() { ... }
-    public ArrayListInt(int numElements) { ... }
-    private void grow() {
-        // TODO: Grows the member array by the growth factor
-    }
-}
 ```
 ### Practice 1: Solution
 ```java
