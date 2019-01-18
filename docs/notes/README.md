@@ -1,3 +1,3 @@
-# Headline
+# Home
 
-> An awesome project.
+Notes curated and collected by Will DiBiagio.
