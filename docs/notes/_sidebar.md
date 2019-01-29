@@ -9,7 +9,7 @@
     - [Math 248](/course/math248/)
 
 - Literature
-    - [2019 Reading List](/literature/2019_reading_list.md)
+    - [Reading List 2019 ](/literature/reading_list_2019.md)
     - [Academic Papers](/literature/academic_papers.md)
 
 - Resources
