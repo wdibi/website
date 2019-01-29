@@ -112,4 +112,4 @@ Thus `k - j ∉ ℤ`, but by closure `k - j ∈ ℤ`. Thus we have a contradicti
 ---
 
 
-Last updated:570422093.630318
+Last updated: 570422093.630318
