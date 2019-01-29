@@ -1,10 +1,8 @@
 # Reading List 2019
 ## Current Read
+**Sapiens: A Brief History of Humankind** by Yuval Noah Harari
 
-#### Sapiens: A Brief History of Humankind by Yuval Noah Harari
-[image:87426D48-E60E-4231-BDC7-9190F294161A-89522-0001268721404247/image1.jpg]
 ## Queue
-
 - **Steve Jobs** by Walter Isaacson
 - **Thinking, Fast and Slow** by Daniel Kahneman
 - **The Spider Network: The Wild Story of a Math Genius, a Gang of Backstabbing Bankers, and One of the Greatest Scams in Financial History** by David Enrich
@@ -13,6 +11,5 @@
 - **Bad Blood: Secrets and Lies in a Silicon Valley Startup** by John Carreyrou
 - **21 Lessons for the 21st Century** by Yuval Noah Harari
 
-## Completed
 
-Last updated: 570432945.574089
+Last updated: 570433689.962306
