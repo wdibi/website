@@ -1,5 +1,6 @@
 # Exam Review
-### Practice 1
+## Practice Problems
+#### Practice 1
 ```java
 public class ArrayListInt {
     final int GROWTH_FACTOR = 2 ;
@@ -12,7 +13,7 @@ public class ArrayListInt {
     }
 }
 ```
-### Practice 1: Solution
+#### Practice 1: Solution
 ```java
 public void grow() {
     int newSize = (arr.length + 1) * GROWTH_FACTOR;
@@ -23,7 +24,7 @@ public void grow() {
     arr = newArr;
 }
 ```
-### Practice 2
+#### Practice 2
 ```java
 public class LinkedListInt {
     int size;
@@ -44,7 +45,7 @@ public class LinkedListInt {
     }
 }
 ```
-### Practice 2: Solution
+#### Practice 2: Solution
 ```java
 public boolean hasLoop() {
     Node curr = head;
@@ -79,13 +80,13 @@ public double powerIterative(double a, int b) {
     return output;
 }
 ```
-### Practice 3b
+#### Practice 3b
 ```java
 public double powerRecursive(double a int b) {
     // TODO: Computes a raised to the power of b recursively
 }
 ```
-### Practice 3b: Solution
+#### Practice 3b: Solution
 ```java
 public double powerRecursive(double a int b) {
     if (b == 0) {
@@ -99,7 +100,7 @@ public double powerRecursive(double a int b) {
 }
 ```
 
-### Practice 5
+#### Practice 5
 ```java
 public class BinaryTreeNodeInt {
     private int data;
@@ -125,7 +126,7 @@ public class BinaryTreeNodeInt {
     }
 }
 ```
-### Practice 5: Solution
+#### Practice 5: Solution
 ```java
 public void printLevelBinaryTree(BinaryTreeNodeInt root) {
     Queue<BinaryTreeNodeInt> queue = new LinkedList<BinaryTreeNodeInt>();
@@ -153,7 +154,7 @@ public void printLevelBinaryTree(BinaryTreeNodeInt root) {
 ```
 > Breadth First Traversal Method
 
-### Practice 6
+#### Practice 6
 ```java
 class HeapNodeInt {
     private int data;
@@ -178,7 +179,7 @@ public class MaxHeapInt {
     }
 }
 ```
-### Practice 6: Solution
+#### Practice 6: Solution
 ```java
 public void deleteRoot() {
     if (heap.size() < 2) {
@@ -206,9 +207,7 @@ public void deleteRoot() {
 ```
 >Bubble Down Method
 
-<a name="notes"></a>
 ## Notes
-<a name="notes-binary-search-tree"></a>
 ### Binary Search Tree
 #### Traversal
 ![](https://www.geeksforgeeks.org/wp-content/uploads/2009/06/tree12.gif)
@@ -227,7 +226,6 @@ public void deleteRoot() {
     3. **Node to be deleted has two children**: Find inorder successor of the node. Copy contents of the inorder successor to the node and delete the inorder successor.
         Note that inorder predecessor can also be used.
 
-<a name="notes-graphs"></a>
 ### Graphs
 - **Undirected edges** point in both directions
 - Graphs with only directed edges are known as **directed graphs**
@@ -235,7 +233,6 @@ public void deleteRoot() {
 ![](http://www2.imm.dtu.dk/projects/graph/images/fig_graph_structures/cyclicVSacyclic.png)
 - **Directed Acyclic Graph (DAG)**, unable to return to your parent
 
-<a name="notes-hashing"></a>
 ### Hashing
 - **Hash Function**: Takes an input and returns and index to store the value at input hash
     1. Knuth Hash
@@ -251,7 +248,6 @@ public void deleteRoot() {
 - **Collisions**: When multiple elements hash to the same bucket. Occurs with a high load factor
 - **Rehash**: Increase number of buckets to decrease load factor
 
-<a name="notes-heaps"></a>
 ### Heaps
 - Max or Min value stored at root
 - Delete root "bubble down"
@@ -263,7 +259,7 @@ public void deleteRoot() {
 
 <a name="extra-sample-code"></a>
 ## Extra Sample Code
-<a name="extra-sample-code-depth-first-traversal"></a>
+
 ### Depth First Traversal
 #### Iterative
 ```java
@@ -408,4 +404,5 @@ private void deleteNode(BinaryTreeNodeInt root, BinaryTreeNodeInt parent, int el
 }
 ```
 
-Last updated: 570425886.232026
+
+Last updated: 570433178.601042

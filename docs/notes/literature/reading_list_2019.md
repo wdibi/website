@@ -2,7 +2,7 @@
 ## Current Read
 
 #### Sapiens: A Brief History of Humankind by Yuval Noah Harari
-
+[image:87426D48-E60E-4231-BDC7-9190F294161A-89522-0001268721404247/image1.jpg]
 ## Queue
 
 - **Steve Jobs** by Walter Isaacson
@@ -15,4 +15,4 @@
 
 ## Completed
 
-Last updated: 570419614.71738
+Last updated: 570432945.574089
