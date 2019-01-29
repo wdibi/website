@@ -1,4 +1,16 @@
-# CMSI-281 Final Exam Study Guide
+# Exam Review
+### Practice 1
+```java
+public class ArrayListInt {
+    final int GROWTH_FACTOR = 2 ;
+    int [] arr;
+    int size;
+    public ArrayListInt() { ... }
+    public ArrayListInt(int numElements) { ... }
+    private void grow() {
+        // TODO: Grows the member array by the growth factor
+    }
+}
 ```
 ### Practice 1: Solution
 ```java
@@ -409,3 +421,5 @@ private void deleteNode(BinaryTreeNodeInt root, BinaryTreeNodeInt parent, int el
     }
 }
 ```
+
+Last updated:570416798.945678
