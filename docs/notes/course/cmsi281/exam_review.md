@@ -98,7 +98,21 @@ public double powerRecursive(double a int b) {
     return a * powerRecursive(a, b - 1);
 }
 ```
+### Practice 4: Solution
+#### Sort
+| Sort Type      | Bubble | Insertion | Selection | Quick   | Merge   |
+|----------------|--------|-----------|-----------|---------|---------|
+| Big-O Run-Time | n²     | n²        | n²        | n log n | n log n |
 
+#### Search
+| Data Structure | Array | Linked List | Binary Search Tree | Hash Table |
+|----------------|-------|-------------|--------------------|------------|
+| Big-O Run-Time | n     | n           | log n              | 1          |
+
+#### Insertion
+| Data Structure | Array | Linked List | Binary Search Tree | Hash Table |
+|----------------|-------|-------------|--------------------|------------|
+| Big-O Run-Time | n     | n           | log n              | 1          |
 ### Practice 5
 ```java
 public class BinaryTreeNodeInt {
@@ -408,4 +422,4 @@ private void deleteNode(BinaryTreeNodeInt root, BinaryTreeNodeInt parent, int el
 }
 ```
 
-Last updated: 570425886.232026
+Last updated: 570416798.945678
