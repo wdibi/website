@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <p id="time-stamp" style="float: right;"></p>
+    <p id="time-stamp" style="position: fixed; bottom: 0; right: 0;"></p>
     <div id="app"></div>
 
     <script>
@@ -19,12 +19,12 @@
             name: 'Will DiBiagio Notes',
             repo: '',
             loadSidebar: true,
-            subMaxLevel: 3,
-            loadNavbar: true,
+            subMaxLevel: 3
+            // loadNavbar: true
             // alias: {
             //     '/.*/_sidebar.md': '/_sidebar.md'
             // },
-            formatUpdated: '{MM}/{DD} {HH}:{mm}',
+            // formatUpdated: '{MM}/{DD} {HH}:{mm}',
             // plugins: [
             //     EditOnGithubPlugin.create(
             //       'https://github.com/wdibi/website/blob/master/docs/',
@@ -33,11 +33,11 @@
             //        )
             // ],
 
-            formatUpdated: function(time) {
-                // ...
-                document.getElementById("time-stamp").innerHTML = "Last updated: " + time;
-                return time;
-            }
+            // formatUpdated: function(time) {
+            //     // ...
+            //     document.getElementById("time-stamp").innerHTML = "Last updated: " + time;
+            //     return time;
+            // }
         }
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>

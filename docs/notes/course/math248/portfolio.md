@@ -1,7 +1,6 @@
-Will DiBiagio
+# Portfolio
 Professor J. Hallam
 12/14/2018
-# Math 248 Portfolio
 
 ## Reflection
 
@@ -111,3 +110,6 @@ Proof: Suppose on the contrary `A ∩ B ≠ ∅`. Then `∃x ∈ A ∩ B`. So `x
 Thus `k - j ∉ ℤ`, but by closure `k - j ∈ ℤ`. Thus we have a contradiction.
 
 ---
+
+
+Last updated: 570422093.630318
