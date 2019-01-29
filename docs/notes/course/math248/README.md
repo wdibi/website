@@ -1,4 +1,4 @@
 
-# Math 248
+# Math 248: Intro to Proofs
 
-Last updated: 570418556.555716
+Last updated: 570433260.09509

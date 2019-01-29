@@ -1,4 +1,4 @@
 
-# Logic Design
+# Elec 281: Logic Design
 
-Last updated: 570418501.924477
+Last updated: 570433272.937351

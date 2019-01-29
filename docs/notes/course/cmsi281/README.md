@@ -1,4 +1,5 @@
 
-# CMSI 281
+# CMSI 281: Data Structures
+Course on data structures, with Java as the programming language. 
 
-Last updated: 570417070.263
+Last updated: 570433283.813146

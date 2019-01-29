@@ -1,7 +1,7 @@
 # Number System
 
 ## Background
-The most used number system is the deciaml system. The Binary Number systems differs in that
+The most used number system is the decimal system. The Binary Number systems differs in that
 it is in base 2 and only uses `0` and `1`.
 
 ## Terminology
@@ -47,4 +47,4 @@ it is in base 2 and only uses `0` and `1`.
 ## Arithmetic
 
 
-Last updated: 570418475.286449
+Last updated: 570433289.134745

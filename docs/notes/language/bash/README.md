@@ -1,3 +1,3 @@
 
-# Bash Language Notess
-Last updated: 570422659.077121
+# Bash Language Notes
+Last updated: 570433372.10582
