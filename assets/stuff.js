@@ -1,10 +1,3 @@
-const emoji = ['🌚', '🌵', '🦔', '🤷🏻', '🆗', '👩🏻‍💻', '🎮']
-const randomEmoji = document.querySelector('.js-random-emoji')
-
-if (randomEmoji) {
-  randomEmoji.textContent = emoji[Math.floor(Math.random() * emoji.length)]
-}
-
 const osDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
 const supportsLocalStorage = 'localStorage' in window
 const darkModeCheckbox = document.querySelector('#dark-mode')

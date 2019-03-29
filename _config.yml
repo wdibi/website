@@ -7,4 +7,3 @@ sass:
   sass_dir: assets
   style: :compressed
 collections:
-  - notes
