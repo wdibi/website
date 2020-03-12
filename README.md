@@ -1,6 +1,1 @@
-# website
-
-## Deploy
-```
-jekyll server -w --baseurl='' 
-```
+# Personal website repository
