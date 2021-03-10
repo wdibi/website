@@ -9,7 +9,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+        <div className={styles.wrapper}>
+          <div className={styles.typing}>hey, it's will.</div>
+        </div>
+      </main>
     </div>
   );
 }
