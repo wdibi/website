@@ -1,9 +1,0 @@
-title:            Will DiBiagio
-description:      who is Will DiBiagio
-url:              http://willdibiagio.com
-permalink:        pretty
-timezone:         America/Los_Angeles
-sass:
-  sass_dir: assets
-  style: :compressed
-collections:
