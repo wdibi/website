@@ -20,7 +20,7 @@ export default function Home() {
       </header>
 
       <main className="wrapper">
-        {content.map((section) => (
+        {content.map(section => (
           <Section {...section} />
         ))}
       </main>

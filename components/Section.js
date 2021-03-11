@@ -1,4 +1,4 @@
-function SectionItem({ text, linkText, href }) {
+function SectionItem({text, linkText, href}) {
   return (
     <li>
       {text}{' '}
@@ -10,7 +10,7 @@ function SectionItem({ text, linkText, href }) {
   );
 }
 
-export default function Section({ title, items }) {
+export default function Section({title, items}) {
   return (
     <details>
       <summary>
@@ -19,7 +19,7 @@ export default function Section({ title, items }) {
         </h2>
       </summary>
       <ul class="list list-items">
-        {items.map((item) => (
+        {items.map(item => (
           <SectionItem {...item} />
         ))}
       </ul>

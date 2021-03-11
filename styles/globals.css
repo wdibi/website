@@ -92,7 +92,7 @@ main {
   margin-bottom: 15px;
 }
 
-.list >li::before{
+.list > li::before {
   content: '•';
   position: absolute;
   margin-left: -1.5em;

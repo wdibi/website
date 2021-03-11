@@ -5,9 +5,9 @@ export default [
       {
         text: 'Computer Science at',
         linkText: 'LMU',
-        href: 'https://lmu.edu'
-      }
-    ]
+        href: 'https://lmu.edu',
+      },
+    ],
   },
   {
     title: 'projects',
@@ -15,13 +15,13 @@ export default [
       {
         text: 'Pixel Menu, contactless mobile menus',
         linkText: 'Website',
-        href: 'https://try.pixel.menu'
+        href: 'https://try.pixel.menu',
       },
       {
         text: 'Pivot, a new spin on programming',
         linkText: 'GitHub',
-        href: 'https://github.com/wdibi/Pivot'
-      }
-    ]
-  }
+        href: 'https://github.com/wdibi/Pivot',
+      },
+    ],
+  },
 ];
