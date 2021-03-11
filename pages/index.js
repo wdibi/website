@@ -20,8 +20,8 @@ export default function Home() {
       </header>
 
       <main className="wrapper">
-        {content.map(section => (
-          <Section {...section} />
+        {content.map((section, i) => (
+          <Section {...section} key={String(i)} />
         ))}
       </main>
       <footer className="footer">That is all.</footer>
