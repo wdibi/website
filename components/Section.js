@@ -14,7 +14,7 @@ export default function Section({title, items}) {
   return (
     <details>
       <summary>
-        <h2 class="as-text">
+        <h2 className="as-text">
           <i>_{title.toUpperCase()}</i>
         </h2>
       </summary>
