@@ -1,20 +1,6 @@
 import Head from 'next/head';
 import Section from '../components/Section';
-
-const content = [
-  {
-    title: 'education',
-    items: [
-      {
-        text: 'Studying Computer Science at',
-        linkText: 'LMU',
-        href: 'https://lmu.edu',
-      },
-    ],
-  },
-  { title: 'work', items: [] },
-  { title: 'projects', items: [] },
-];
+import content from '../data/content';
 
 export default function Home() {
   return (
