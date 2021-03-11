@@ -5,7 +5,6 @@ function SectionItem({text, linkText, href}) {
       <mark>
         <a href={href}>{linkText}</a>
       </mark>
-      <div class="small"></div>
     </li>
   );
 }
