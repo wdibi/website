@@ -9,6 +9,7 @@
     "pretty": "prettier --write ."
   },
   "dependencies": {
+    "@next/font": "^13.5.3",
     "eslint-config-next": "^13.5.3",
     "next": "^13.5.3",
     "react": "^18.2.0",
