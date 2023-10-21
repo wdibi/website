@@ -15,7 +15,7 @@ export default [
       {
         text: 'Pixel Menu, contactless mobile menus',
         linkText: 'Website',
-        href: 'https://try.pixel.menu',
+        href: 'https://a.pixel.menu',
       },
       {
         text: 'Pivot, a new spin on programming',
