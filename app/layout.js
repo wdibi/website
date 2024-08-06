@@ -1,5 +1,5 @@
 import '@/styles/globals.css';
-import {Cousine} from '@next/font/google';
+import {Cousine} from 'next/font/google';
 
 export const metadata = {
   title: 'Will DiBiagio',
