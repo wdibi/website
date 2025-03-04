@@ -1,4 +1,15 @@
-function SectionItem({text, linkText, href}) {
+interface SectionItemProps {
+  text: string;
+  linkText: string;
+  href: string;
+}
+
+interface SectionProps {
+  title: string;
+  items: SectionItemProps[];
+}
+
+function SectionItem({text, linkText, href}: SectionItemProps) {
   return (
     <li>
       {text}{' '}
@@ -9,7 +20,7 @@ function SectionItem({text, linkText, href}) {
   );
 }
 
-export default function Section({title, items}) {
+export default function Section({title, items}: SectionProps) {
   return (
     <details>
       <summary>

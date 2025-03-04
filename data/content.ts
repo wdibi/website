@@ -1,4 +1,15 @@
-export default [
+interface ContentItem {
+  text: string;
+  linkText: string;
+  href: string;
+}
+
+interface ContentSection {
+  title: string;
+  items: ContentItem[];
+}
+
+const content: ContentSection[] = [
   {
     title: 'about',
     items: [
@@ -25,3 +36,5 @@ export default [
     ],
   },
 ];
+
+export default content;
