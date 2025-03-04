@@ -6,7 +6,7 @@ export const metadata = {
   description: '',
 };
 
-export const cousine = Cousine({
+const cousine = Cousine({
   subsets: ['latin'],
   weight: ['400', '700'],
 });
